@@ -21,3 +21,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: sandvich
+    zmk:
+      keymap:
+        includes:
+          - sandvich.h  # Include the header
