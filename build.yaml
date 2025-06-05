@@ -19,36 +19,5 @@
 #
 ---
 include:
-  - board: sparkfun_pro_micro_rp2040
-    shield: two_percent_milk
-include:
-  - board: adv360pro_left
-  - board: adv360pro_right
-include:
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_left
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_right
-include:
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_left
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_right
-include:
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_left
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_right
-include:
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_left
-  - board: seeeduino_xiao_ble
-    shield: splitkb_aurora_corne_right
-include:
-  - board: seeeduino_xiao_ble
-    shield: ergodash_left
-  - board: seeeduino_xiao_ble
-    shield: ergodash_right
-include:
   - board: seeeduino_xiao_ble
     shield: crbn
