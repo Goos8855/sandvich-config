@@ -1,0 +1,6 @@
+if SHIELD_SANDVICH
+
+config ZMK_KEYBOARD_NAME
+    default "sandvich"
+
+endif # SHIELD_SANDVICH
