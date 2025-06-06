@@ -1,6 +1,6 @@
 / {
     chosen {
-        zmk,physical-layout = &default_layout;
+        zmk,physical-layout = &default_transform;
         zmk,kscan = &kscan;
     };
 
