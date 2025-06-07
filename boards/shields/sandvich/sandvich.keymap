@@ -8,14 +8,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layers { // <-- Add this container node
-            default_layer {
-                bindings = <
-                    &kp Q &kp W &kp E &kp R &kp T
-                    &kp A &kp S &kp D &kp F &kp G
-                    &kp Z &kp X &kp C &kp V &kp B
-                >;
-            };
+        // Remove the 'layers' container node
+        default_layer {
+            bindings = <
+                &kp Q &kp W &kp E &kp R &kp T
+                &kp A &kp S &kp D &kp F &kp G
+                &kp Z &kp X &kp C &kp V &kp B
+            >;
         };
     };
 };
